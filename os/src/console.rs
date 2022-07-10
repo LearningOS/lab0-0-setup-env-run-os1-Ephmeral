@@ -1,8 +1,4 @@
-/*！
-
-本模块实现了 print 和 println 宏。
-
-*/
+// os/src/console.rs
 
 use crate::sbi::console_putchar;
 use core::fmt::{self, Write};
